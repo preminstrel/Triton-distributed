@@ -27,7 +27,7 @@ bash ./scripts/launch.sh ./python/triton_dist/test/nvidia/test_e2e_inference.py 
 bash ./scripts/launch.sh ./python/triton_dist/test/nvidia/test_e2e_inference.py --bsz 4096 --gen_len 128 --max_length 150 --backend triton_dist
 ```
 
-## Perf for ByteDance-Seed/Triton-distributed on 8xH800:
+## Perf for ByteDance-Seed/Seed-OSS-36B-Instruct on 8xH800:
 
 | Test Case           | Parameters         | Torch AR (s) | Triton Dist AR (s) | Speedup |
 | :------------------ | :----------------- | :----------- | :----------------- | :------ |
